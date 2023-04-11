@@ -1,0 +1,226 @@
+.back{
+    background-color: whitesmoke;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
+.navbar{
+    width: 1620px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 10px 20px gray;
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.list{
+    color: blue;
+    padding-left: 10px;
+}
+.leftcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    float: right;
+    
+
+}
+
+.circle{
+    height: 10px;
+    width: 10px;
+    background-color: blue;
+    font-size: 25px;
+    padding: 8px 15px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font: 30px;
+    font-weight: bold;
+}
+.text{
+    color: black;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+
+}
+.midcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; 
+    position: relative;
+    left: 10%;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.box{
+    padding: 20px 20px;
+    width: 300px;
+    height: 280px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    border: 2px gray;
+    line-height: 30px;
+    font-family: 'Cabin', sans-serif;
+}
+.box:hover{
+    background-color: white;
+    box-shadow: 2px 1px 6px 1px;
+}   
+.line{
+    text-decoration: line-through;
+    color: gray;
+}
+.midcon{
+    display: flex;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+    font-family: 'Cabin', sans-serif;
+
+}
+.parent{
+    
+    filter: blur(2px);
+}
+
+.addtask{
+  padding: 7px;
+  width: 350px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid gray; 
+  border-radius: 10px; 
+  position: relative;
+  bottom: 600px;
+  left: 550px;
+  box-shadow: 0px 5px 8px 0px gray; 
+
+  
+}
+.button{
+    float: right;
+    position: relative;
+    color: black;
+    bottom: 22px;
+    font-size: 20px;
+}
+#text{
+    width: 320px;
+    height: 30px;
+    border: 2px solid grey;
+    color: gray;
+    background-color: rgb(214, 210, 210);
+    font-size: 15px;
+    border-radius: 3px;
+}
+.task{
+    padding: 10px;
+    float: right;
+    height: 20px;
+    width: 150px;
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    text-align: center;
+}
+.midcontainer1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    font-family: 'Cabin', sans-serif;
+}
+.boxs{
+    width: 350px;
+    height: 280px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 30px;
+    font-family: 'Cabin', sans-serif;  
+    box-shadow: 5px 5px 5px 5px gray; 
+}
+.list1{
+    color: blue;
+    text-align: center;
+}
+.parent1{
+    filter: blur(2px);  
+}
+.addtask1{
+    padding: 7px;
+    width: 380px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid gray; 
+    border-radius: 10px; 
+    position: relative;
+    bottom: 180px;
+    left: 500px;  
+    justify-content: center;
+    font-family: 'Cabin', sans-serif;
+    box-shadow: 0px 5px 8px 0px gray; 
+}
+
+.new{
+    float: right;
+    font-size: 15px;  
+    margin-right: 35%;
+}
+.circle1{
+    height: 5px;
+    width: 5px;
+    background-color: blue;
+    font-size: 25px;
+    padding: 8px 15px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font: 30px;
+    font-weight: bold;
+   
+}
+.img{
+    padding: 5px 5px;
+   display: flex;
+   position: relative;
+   left: 35%;
+   width: 90px;
+   top: 40px;
+}
+.backimg{
+    top: 2px;
+}
+
+.backimg1{
+    color: black;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+}
+.boxs1{
+    width: 400px;
+    height: 280px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 30px;
+    font-family: 'Cabin', sans-serif;  
+    box-shadow: 0px 5px 8px 0px gray;  
+}
+
+
+
+
+
